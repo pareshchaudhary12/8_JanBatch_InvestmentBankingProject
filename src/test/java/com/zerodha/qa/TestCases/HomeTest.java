@@ -25,7 +25,7 @@ public class HomeTest extends TestBase {
 	
 	@Test
 	public void HomePageTest() throws EncryptedDocumentException, IOException {
-		
+	// This class contains home page test cases.	
 	// Login to the application ==> Go to the home page and check several aspects.
 		
 		LoginPage lp = new LoginPage(driver);
